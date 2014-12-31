@@ -1,5 +1,10 @@
 body{
-	background:#333333 url(images/background.jpg);
+	
+	background: -webkit-linear-gradient(200deg, #BDC0C3 10%, #C7E2FE 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(200deg, #BDC0C3 10%, #C7E2FE 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(200deg, #BDC0C3 10%, #C7E2FE 90%); /* IE10 */
+    background:      -o-linear-gradient(200deg, #BDC0C3 10%, #C7E2FE 90%); /* Opera 11.10+ */
+    background:         linear-gradient(200deg, #BDC0C3 10%, #C7E2FE 90%); /* W3C */
 	margin:0px;
 	font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
 	color:#6a6969;
@@ -25,7 +30,7 @@ a img{border:2px;}
 /****************************************************/
 
 #header{
-	width:864px;
+	width:865px;
 	height:115px;
 	background-color:#BDC0C3;
 	padding:0px 43px;
