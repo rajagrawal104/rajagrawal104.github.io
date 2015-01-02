@@ -40,7 +40,8 @@ a img{border:2px;}
 	margin: 0 0 0 -475px;
 }
 #header #logo{
-	padding-top:40px;
+	padding-top:30px;
+	padding-left:40px;
 	float:left;
 }
 #header #main-menu{float:right; padding-top:45px;}
